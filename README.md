@@ -51,7 +51,7 @@
     1. 왓챠
         - 각 영화별 평점과 간단한 코멘트가 있어 직관적이지만 댓글을 달거나 자세한 리뷰를 작성할 수는 없음.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ef319ef-f1a1-4f38-950e-194270aea781/Untitled.png)
+        ![watcha](https://user-images.githubusercontent.com/67399771/203859780-80bbb170-734f-46ca-a852-fdecbfbf6b14.png)
         
     2. 네이버 영화
         - 영화에 대한 리뷰(자세함) / 평점(간단한 코멘트)가 있음. 또한 추천과 좋아요 /기능이 있어 타 사용자들의  커뮤니케이션이 비교적 활발한 편.
