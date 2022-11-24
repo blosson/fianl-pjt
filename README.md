@@ -56,9 +56,9 @@
     2. 네이버 영화
         - 영화에 대한 리뷰(자세함) / 평점(간단한 코멘트)가 있음. 또한 추천과 좋아요 /기능이 있어 타 사용자들의  커뮤니케이션이 비교적 활발한 편.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c0cd7bc-5c3b-47a9-bb68-8091a3b380fe/Untitled.png)
+        ![naver1](https://user-images.githubusercontent.com/67399771/203859758-343019a1-066b-4d63-aed7-9778c211fdf0.png)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caa4a396-4093-4854-baa9-f51842ce880c/Untitled.png)
+        ![naver2](https://user-images.githubusercontent.com/67399771/203859760-4989939a-f195-472b-ba20-217a044ae319.png)
         
     - 직관성/편리성 vs 자세한 정보 제공이라는 각각의 장점이 존재
     
@@ -71,12 +71,12 @@
 
 - ERD
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd1bcee2-1bfd-4dca-9a97-53d85979cff1/Untitled.png)
+    ![erd](https://user-images.githubusercontent.com/67399771/203859754-04958938-5a8a-4a11-bdad-62340ebcf8ff.png)
     
 
 - 컴포넌트 구조도
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13d23efc-6201-4b32-a985-e2edfeca6d02/Untitled.png)
+    ![structure](https://user-images.githubusercontent.com/67399771/203859776-668f9297-2365-4706-800e-168d92b6e64b.png)
     
 
 - 서비스 주기능, 부기능(상세기능)
@@ -105,9 +105,9 @@
 - 사용자 좋아요 기반 영화 추천
     - 회원가입 시 48개의 영화 목록을 띄워주는 페이지로 이동해 사용자가 즐겨봤던 영화를 고를 수 있게 합니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b07bc0b-b3e1-48a5-a3bc-25d604c1cf38/Untitled.png)
+        ![signup](https://user-images.githubusercontent.com/67399771/203859772-39c1d438-1316-4113-bf04-06556cf73e2f.png)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84e9fcfc-83b0-4ee2-b082-42574f256d57/Untitled.png)
+        ![selection](https://user-images.githubusercontent.com/67399771/203859770-3a95be4e-e5fb-48a4-a4ac-0dc294630245.png)
         
         - <알고리즘>
             1. 10,000개의 영화 DB를 for문을 이용해 장르별로 분류
@@ -116,7 +116,7 @@
             
     - 사용자가 좋아요를 누른 영화에 대한 정보를 기반으로 다른 영화를 추천해줍니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da4e3e22-ce75-42dc-8f2c-569dc302c339/Untitled.png)
+        ![like_recommendation](https://user-images.githubusercontent.com/67399771/203859757-cf144982-fde2-4025-9dde-404b6ab5e7fc.png)
         
     
     - <알고리즘>
@@ -130,7 +130,7 @@
 - 영화별 리뷰 커뮤니티
     - 관련 영화 추천
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afa96e64-177c-46cd-a970-5b7d7b7c3265/Untitled.png)
+        ![similar](https://user-images.githubusercontent.com/67399771/203859774-822b05ed-aba7-443b-b35a-779ab3af4c6d.png)
         
     
     - <알고리즘>
@@ -139,13 +139,13 @@
     - 영화 좋아요 기능
     - 리뷰 CRUD 기능
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33a2dd06-350c-46d0-b9c3-4be504a3f660/Untitled.png)
+    ![crud](https://user-images.githubusercontent.com/67399771/203859749-bdcf1c18-7c91-4afc-984f-e8fd339c5d0e.png)
     
     - 리뷰 작성자 클릭시 해당 유저 프로필로 넘어가기 기능
 
 - 최신 영화 추천
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11f404b1-67b4-4d69-8ea7-530aa89da315/Untitled.png)
+    ![latest](https://user-images.githubusercontent.com/67399771/203859756-b0987f1b-f253-4559-bea4-c0e95911a269.png)
     
 
 - <알고리즘>
@@ -156,31 +156,31 @@
     
 - 오늘의 영화 추천
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/827e8d2f-c6c9-4c14-a0a2-e1553b72c159/Untitled.png)
+    ![today](https://user-images.githubusercontent.com/67399771/203859778-1128db4f-e857-4c2f-9540-192c524257ea.png)
     
     - <알고리즘>
         1. 현재 날짜 (ex) 20221124) int화하여 일정한 식을 만든 뒤 이와 가장 근접한 movie_id를 추천해줌
 
 - 나만 당할 수 없지 영화 추천 (이런 영화도 있어요!)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f9f4465-2e0a-403f-8410-62b56672b612/Untitled.png)
+    ![worst](https://user-images.githubusercontent.com/67399771/203859781-1a4b0ed6-be1b-475e-836e-8ae305119dde.png)
     
     - <알고리즘>
         1. DB에서 popularity가 20 미만,  vote_average가 5.5 미만인 영화들을 뽑아서 1개를 랜덤으로 추천해줌
 
 - 영화 검색 기능
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4eab0a9-dce1-4405-abc1-0185ae5159a0/Untitled.png)
+![search](https://user-images.githubusercontent.com/67399771/203859763-5edff17f-c7fc-4ac1-aab2-414a5584d8b1.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a519d1dc-1ce6-411e-b2ed-726ef0fc62fa/Untitled.png)
+![search2](https://user-images.githubusercontent.com/67399771/203859766-24ef5c71-813c-4108-b093-02302b96adfa.png)
 
 - 글자단위로 검색가능
 
 - 프로필 페이지
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b07931bc-cc63-43ce-83d5-4437dde72f7a/Untitled.png)
+![profile1](https://user-images.githubusercontent.com/67399771/203859761-73b9c771-de3b-42e1-86ef-212ab7a15209.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edd718a7-a28d-43a6-9a30-dd660248a298/Untitled.png)
+![profileimage](https://user-images.githubusercontent.com/67399771/203859762-bbac6207-56ab-43c0-aaee-b1e12ffa1a21.png)
 
 - 프로필 이미지 업로드 기능
 - 내가 좋아요한 영화 목록
